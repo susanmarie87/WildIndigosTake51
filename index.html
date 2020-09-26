@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,55 +8,143 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Laila:wght@600&display=swap">
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Wild Indigos</title>
+    <title>Document</title>
 </head>
 <body>
-
-<!-- Navbar -->
-
-     <ul class="nav justify-content-end">
-<a class="navbar-brand" href="index.html"><strong>Wild Indigos</strong></a>
-
-     <!--./nav-link-->
-
-  <li class="nav-link">
-    <a class="nav-link active" href="index.html">Home</a>
-  </li>
-  <li class="nav-link">
-    <a class="nav-link" href="products.html">Products</a>
-  </li>
-  <li class="nav-link">
-    <a class="nav-link" href="about-us.html">About Us</a>
-  </li>
-  <li class="nav-link">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-  </li>
-</ul>
-
-<!-- /.background image-->
-<section>
-
-<div class="media">
-   <img class="img-fluid" src="https://b00be021-0222-4fd2-91b1-370454cb6ec5.ws-us02.gitpod.io/mini-browser/workspace/WildIndigosTake51/assets/images/FF53.jpg" alt="Mountain">
+    <header>
+ <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Wild Indigos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
   </div>
-</section>  
-                  
-<!-- /.product links-->
+</nav>
 
-  <h2>Products</h2>
-  <div class="column">
-  <div class="row>"
-<div class="col-12 col-md-6">
-  <p>
-  Meet the maker. At just ten years old, Layla Grimme designs, develops and handcrafts all of our products. 
-  With a true passion for fashion and a knack for natural products, this young lady is taking a whole new approach
-  to fashion, health and beauty!
-  
-  </p>
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('https://b00be021-0222-4fd2-91b1-370454cb6ec5.ws-us02.gitpod.io/mini-browser/workspace/WildIndigosTake51/assets/images/FF53.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">Wild Indigos</h3>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://b00be021-0222-4fd2-91b1-370454cb6ec5.ws-us02.gitpod.io/mini-browser/workspace/WildIndigosTake51/assets/images/bestbracelet.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">Second Slide</h3>
 
-  <img src="https://b00be021-0222-4fd2-91b1-370454cb6ec5.ws-us02.gitpod.io/mini-browser/workspace/WildIndigosTake51/assets/images/Bracelet3.jpg" class="float-left" alt="Paris" width="328" height="204"> 
-  <img src="https://b00be021-0222-4fd2-91b1-370454cb6ec5.ws-us02.gitpod.io/mini-browser/workspace/WildIndigosTake51/assets/images/gemstones.jpg" class="float-right" alt="Paris" width="328" height="204"> 
-</div>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://b00be021-0222-4fd2-91b1-370454cb6ec5.ws-us02.gitpod.io/mini-browser/workspace/WildIndigosTake51/assets/images/gemstones.jpg')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">Third Slide</h3>
+          <p class="lead">This is a description for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</header>
 
+<!-- Page Content -->
+<section class="py-5">
+  <div class="container">
+    <h1 class="font-weight-light">Who We are</h1>
+    <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p>
+  </div>
+</section>
+    </header>
+</body>
+</html>
+   <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <!-- Form -->
+        <form class="form-inline">
+          <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+            aria-label="Search">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </form>
+        <!-- Form -->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <form class="input-group">
+          <input type="text" class="form-control form-control-sm" placeholder="Your email"
+            aria-label="Your email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
+          </div>
+        </form>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://WildIndigos.com/"> WIld Indigos/a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>

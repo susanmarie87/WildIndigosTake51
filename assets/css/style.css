@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@500&family=Rouge+Script&display=swap');
+
+html, body {
+    height:100%;
+    width:100%;
+    font-family: 'Laila', sans-serif;
+}
+
+
+body {
+   
+}
+/*-----------------------------------------------------Intro Container*/
+.container{
+   
+
+}
+
+/*-----------------------------------------------------Carousel*/
+.carousel-item {
+  height: 75vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*-----------------------------------------------------NavBar*/
+
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight:300;
+    font-family: 'Rouge Script';
+    float:left;
+    padding-bottom:5px;
+}
+
+
+.navbar-nav li {
+    padding-right:20px;
+
+}
+/*-----------------------------------------------------Carousel Image*/
+.carousel-inner img {
+    height:100%;
+    width:100%;
+
+}
+/*-----------------------------------------------------Second Carousel Image*/
+.intro-text {
+     font-size:45px;
+    color:whitesmoke;
+}
+/*-----------------------------------------------------Third carousel Image*/
+.gemstone-text {
+    font-size:45px;
+    color: whitesmoke;
+}
+
+.bracelet-text {
+     font-size:45px;
+    color:whitesmoke;
+}
+
+/*-----------------------------------------------------HomePage Cards*/
+
+.card-deck {
+    margin-top:5rem;
+    margin-bottom:5 rem; 
+}
+
+.card-1 {
+   max-width: 100%;
+   max-height:100%;
+}
+
+.card-2 {
+    max-width: 100%;
+   max-height:100%;
+
+}
+
+.card-3 {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.footer {
+    height: 150px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.footer.container {
+
+}
+
+.social-networks {
+
+    font-size:160%;
+    margin: 1%;
+    padding: 5%;
+    color:#777777;
+}
+
+/*-----------------------------------------------------Extra Classes link*/
+.jumbotron{ 
+	background-image: url('https://b00be021-0222-4fd2-91b1-370454cb6ec5.ws-us02.gitpod.io/mini-browser/workspace/WildIndigosTake51/assets/images/butterfly.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+}  
+
+/*-----------------------------------------------------Classes Background-image*/
+  body {
+  background-image: url("https://b00be021-0222-4fd2-91b1-370454cb6ec5.ws-us02.gitpod.io/mini-browser/workspace/WildIndigosTake51/assets/images/moonmed.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height:500px;
+  }
+
+.moonmed{
+height:100%;
+width:100%;
+
+}
+
+.card-img-top-1 {
+    max-height: 250px;
+    max-width: 190px;
+}
+
+.card-img-top-2 {
+    max-height: 250px;
+    max-width: 190px;
+}
+
+.card-img-top-3 {
+    max-height: 250px;
+    max-width: 190px;
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+/*-----------------------------------------------------Classes Jumbotron*/
+
+
+.jumbotron jumbotron-fluid{ 
+	background-image: url('https://b00be021-0222-4fd2-91b1-370454cb6ec5.ws-us02.gitpod.io/mini-browser/workspace/WildIndigosTake51/assets/images/butterfly.jpg'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+    padding-top:75px;
+}
+
+
+/*-----------------------------------------------------Classes Cards*/
+
+.card-columns {
+   }
+
+
+/*-----------------------------------------------------Products Card*/
+.card bg-primary text-white text-center p-3 {
+    background-color:lightgray;
+    text-decoration-color: black;
+}

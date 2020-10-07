@@ -16,6 +16,10 @@ body {
 }
 
 /*-----------------------------------------------------Carousel*/
+header {
+    margin-top:86px;
+}
+
 .carousel-item {
   height: 75vh;
   min-height: 350px;
@@ -138,7 +142,7 @@ body {
     max-height: 250px;
     max-width: 190px;
 }
- 
+
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

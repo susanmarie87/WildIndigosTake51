@@ -8,18 +8,16 @@
 
 body {
   font-family: "Laila", sans-serif;
-
 }
 
 h1 {
- margin: 25px auto;
- text-align: center;
+  margin: 25px auto;
+  text-align: center;
 }
 
 h2 {
-    margin: 25px 0;
+  margin: 25px 0;
 }
-
 
 /*-----------------------------------------------------NavBar*/
 
@@ -35,61 +33,79 @@ h2 {
 }
 
 .background-image {
-  max-width:100%;
+  max-width: 100%;
   margin-top: 60px;
 }
 
-
 /* -- Intro Cards -- */
 .card img {
-    height:300px;
+  height: 300px;
+  object-fit: cover;
 }
 /*-----------------------------------------------------Classes*/
 .card-img-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 6rem;
-    padding-bottom:10rem;
-    border-radius: calc(.25rem - 1px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 6rem;
+  padding-bottom: 10rem;
+  border-radius: calc(0.25rem - 1px);
 }
 
 /*-----------------------------------------------------Products Cards*/
-.header {   
-     padding: 86px;
+.header {
+  padding: 86px;
 }
 
 /* -- FOOTER -- */
 footer {
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
   margin-top: 50px;
-  background-color:#343a40;
-  color:#fff;
+  background-color: #343a40;
+  color: #fff;
 }
+.footer-copyright {
+  text-align: center;
+  padding: 20px 0;
+}
+
 .social-container {
   padding: 16px 0;
 }
+
 footer ul {
   display: flex;
+  justify-content: center;
   margin: 0;
 }
+
 .social-icons {
   list-style: none;
 }
+
 .social-icons i {
-  font-size: 165%;
-  margin: 0 40px;
-}
-
-@media only screeen and (min-width: 20em) {
-   .footer-copyright text-center {
-    float: left;
-    margin-right:0.5rem;
-    margin-top:1.5rem;
+  font-size: 120%;
+  margin: 0 30px;
 }
 
 
+.social-icons a {
+    color: #fff;
+    text-decoration: underline;
+}
+.social-icons a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+/* -- Media Queries -- */
+
+@media only screen and (min-width: 768px) {
+  .social-icons i {
+    font-size: 165%;
+    margin: 0 40px;
+  }
+}

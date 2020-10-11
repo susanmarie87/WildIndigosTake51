@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Laila:wght@500&family=Rouge+Script&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -7,11 +8,9 @@
 
 body {
   font-family: "Laila", sans-serif;
-  background-image: url("../images/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-   min-height:500px;
-  }
+  background:url("assets/images/colorsplash.jpg");
+  background-size: cover;     
+}
 /*-----------------------------------------------------NavBar*/
 
 .navbar-brand {
@@ -24,6 +23,7 @@ body {
 .navbar-nav li {
   padding-right: 10px;
 }
+
 /*--Carousel --*/
 header {
   margin-top: 86px;
@@ -37,21 +37,6 @@ header {
   font-size: 45px;
   color: whitesmoke;
 }
-
-@media (min-width:600) 
-#card bathbombs {
-font-size:165%;
-}
-/*-----------------------------------------------------HomeCards*/
-.card-deck {
-  margin-top:5rem;
-  margin-bottom:5rem;
-}
-
-.card img {
-   height:200px;
-}
-
 /*-----------------------------------------------------Classes*/
 .card-img-overlay {
     position: absolute;
@@ -63,41 +48,10 @@ font-size:165%;
     padding-bottom:10rem;
     border-radius: calc(.25rem - 1px);
 }
-/*-----------------------------------------------------Classes Background*/
-.card-img-top-1 {
-  max-height: 250px;
-  max-width: 190px;
-}
 
-.card-img-top-2 {
-  max-height: 250px;
-  max-width: 190px;
-}
-
-.card-img-top-3 {
-  max-height: 250px;
-  max-width: 190px;
-}
-
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Add some padding inside the card container */
-.card-body {
-  padding: 2px 16px;
-}
-
-/* -- Products Cards -- */
-card {
-    padding:5px;
+/*-----------------------------------------------------Products Cards*/
+.header {   
+     padding: 86px;
 }
 
 /* -- FOOTER -- */
@@ -128,4 +82,4 @@ footer ul {
     margin-top:1.5rem;
 }
 
-.
+

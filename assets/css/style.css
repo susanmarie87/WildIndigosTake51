@@ -8,8 +8,7 @@
 
 body {
   font-family: "Laila", sans-serif;
-  background:url("assets/images/colorsplash.jpg");
-  background-size: cover;     
+     
 }
 /*-----------------------------------------------------NavBar*/
 
@@ -24,19 +23,10 @@ body {
   padding-right: 10px;
 }
 
-/*--Carousel --*/
-header {
-  margin-top: 86px;
+.background-image {
+  max-width:100%;
 }
 
-/*-----------------------------------------------------CarouselImage*/
-.carousel-inner img {
-  width: 100%;
-}
-.carousel-caption h3 {
-  font-size: 45px;
-  color: whitesmoke;
-}
 /*-----------------------------------------------------Classes*/
 .card-img-overlay {
     position: absolute;

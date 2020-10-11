@@ -36,8 +36,14 @@ h2 {
 
 .background-image {
   max-width:100%;
+  margin-top: 60px;
 }
 
+
+/* -- Intro Cards -- */
+.card img {
+    height:300px;
+}
 /*-----------------------------------------------------Classes*/
 .card-img-overlay {
     position: absolute;
@@ -60,6 +66,9 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 50px;
+  background-color:#343a40;
+  color:#fff;
 }
 .social-container {
   padding: 16px 0;

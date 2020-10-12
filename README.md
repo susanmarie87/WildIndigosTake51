@@ -34,14 +34,9 @@ We promote whole body health and wellness. Our mindful approach to healthy and c
 
 # Wireframes  
 
+ * [Basic Wireframes](https://github.com/susanmarie87/WildIndigosTake51/blob/master/assets/wireframes/basic-wireframes.pdf) 
 
- (quite possibly the world's worst wireframes...but wireframes nonetheless)
-
- * [Basic Wireframes]() 
-
-
-
- * [Final Wireframes](assets/wireframs/Wireframes.pdf)
+ * [Final Wireframes](https://github.com/susanmarie87/WildIndigosTake51/blob/master/assets/wireframes/Wireframes.pdf)
 
 
 # Existing Features

@@ -8,6 +8,7 @@
 
 body {
   font-family: "Laila", sans-serif;
+  background: url(../images/colorsplash.jpg) no-repeat center center;
 }
 
 /* -- Headings-- */
@@ -121,7 +122,8 @@ footer ul {
 }
 
 /* -- Contact Form taken from www.ws3schools.com -- */
-input[type=text], select, textarea {
+ input, 
+ textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -133,19 +135,14 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color:teal;
   color: white;
-  padding: 12px 20px;
+  padding:  12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  padding: 20px;
+  background-color:gray;
 }

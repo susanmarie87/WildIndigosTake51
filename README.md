@@ -3,7 +3,7 @@
 Wild Indigos is a spiritual and holistic minded brand and community.
 We promote whole body health and wellness. Our mindful approach to healthy and connected living drives our community bond and we want this website to represent the abundance of that.
 
- ![Responsive Screens](https://http://ami.responsivedesign.is./com/to/Screens.png)
+ ![Image](assets/wireframes/Screens.png)
  
  # UX
 
@@ -37,10 +37,11 @@ We promote whole body health and wellness. Our mindful approach to healthy and c
 
  (quite possibly the world's worst wireframes...but wireframes nonetheless)
 
- * Basic Wireframes
+ * [Basic Wireframes]() 
 
 
- * Website Wireframes
+
+ * [Final Wireframes](assets/wireframs/Wireframes.pdf)
 
 
 # Existing Features
@@ -101,7 +102,7 @@ We promote whole body health and wellness. Our mindful approach to healthy and c
 
 *   The font was taken from: https://googlefonts.com/
 
-*   
+*   The icons were taken from: https://fontawesome.com/
 
 
 
@@ -117,10 +118,10 @@ We promote whole body health and wellness. Our mindful approach to healthy and c
     Specifically Anna Greaves and Simen Daehlin aka "Grandmaster Yoda," as it is always, at least 95% of the time, their answers that pop-up when I search for something on Slack. 
     Those two could run the entire code world. 
 
-*	Ignatius Ukwuoma, my mentor, for helping to guide me through my project and giving me motivation.
+*	Ignatius Ukwuoma, my mentor, for helping to guide me through ideas for my project and giving me motivation.
 
-*	Jim Lynx for helping me sort out some issues as well as for the incredible motivation and advice when I was ready to quit. He is a total Genius and should be hired immediately at
-    Code Institute as a mentor upon completion... or now for MS! projects. 
+*	Jim Lynx for helping me sort out a bracket and CSS issues as well as the valuable feedback and advice when I was ready to quit. Jim should be hired immediately at
+    Code Institute as a mentor upon completion... or now for MS1 projects. 
 
 *	Kevin Powell and his very awesome and concise videos. 
 

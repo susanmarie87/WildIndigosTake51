@@ -1,127 +1,169 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Laila:wght@600&display=swap">
-    <link href="assets/css/style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Laila:wght@600&display=swap"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
     <title>Wild Indigos</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- Navigation adapted from https://bootrstrap.com -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Wild Indigos</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-	<!-- Navigation -->
-	<header>
-
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-			<div class="container">
-				<a class="navbar-brand" href="#">Wild Indigos</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home
-								<span class="sr-only">(current)</span>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="products.html">Products</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="classes.html">Classes</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
-
-<!-- Cards -->
-
-<header>
-<h1 class="products-title">Classes</h1>
-<!-- Cards -->
-<div class="container">
-<div class="row row-cols-1 row-cols-md-2">
-  <div class="col mb-4">
-    <div class="card">
-      <img src="assets/images/essentialoils.jpg" class="card-img-top" alt="Essential Oils">
-      <div class="card-body">
-        <h5 class="card-title">Essential Oil Class</h5>
-        <p class="card-bathbombs">Learn about all the powers essential oils have to offer.</p>
-        <button type="button" class="btn btn-info">Coming Soon</button></a>
+    <!-- Cards taken from https://bootstrap.com -->
+    <header>
+      <h1 class="products-title">Classes</h1>
+      <!-- Classes Cards -->
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="assets/images/essentialoils.jpg"
+                class="card-img-top"
+                alt="Essential Oils"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Essential Oil Class</h5>
+                <p class="card-bathbombs">
+                  Learn about all the powers essential oils have to offer.
+                </p>
+                <button type="button" class="btn btn-info">Coming Soon</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="assets/images/healing.jpg"
+                class="card-img-top"
+                alt="woman healing"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Healing Meditation</h5>
+                <p class="card-bracelet">
+                  Join us as we meditate and support one another.
+                </p>
+                <button type="button" class="btn btn-info">Coming Soon</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="assets/images/herbs.jpg"
+                class="card-img-top"
+                alt="teac cup surrounded by herbs"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Natural Healing</h5>
+                <p class="card-smudge">
+                  In this class, we learn about the healing powers of herbs and
+                  all things mother nature has to offer.
+                </p>
+                <button type="button" class="btn btn-info">Coming Soon</button>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img
+                src="assets/images/glowmoon.jpg"
+                class="card-img-top"
+                alt="glowmoon"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Moon Madnesss</h5>
+                <p class="card-text">
+                  Join us as we learn the differences behind each lunar cycle
+                  and how to harness the power of the moon.
+                </p>
+                <button type="button" class="btn btn-info">Coming Soon</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <img src="assets/images/healing.jpg" class="card-img-top" alt="woman healing">
-      <div class="card-body">
-        <h5 class="card-title">Healing Meditation</h5>
-        <p class="card-bracelet">Sit with a like-minded community as we meditate and support one another.</p>
-        <button type="button" class="btn btn-info">Coming Soon</button></a>
+    </header>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-copyright">
+        © 2020 Copyright:
+        <a href="index.html">Wildindigos.com</a>
       </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <img src="assets/images/herbs.jpg" class="card-img-top" alt="teac cup surrounded by herbs">
-      <div class="card-body">
-        <h5 class="card-title">Natural Healing</h5>
-        <p class="card-smudge">In this class, we learn about the healing powers of herbs and all things mother nature has to offer.</p>
-        <button type="button" class="btn btn-info">Coming Soon</button></a>
+      <div class="social-container">
+        <ul>
+          <li class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li class="social-icons">
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+          </li>
+          <li class="social-icons">
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <img src="assets/images/glowmoon.jpg" class="card-img-top" alt="glowmoon">
-      <div class="card-body">
-        <h5 class="card-title">Moon Madnesss</h5>
-        <p class="card-text">Join us as we learn the differences behind each lunar cycle and how to harness the power of the moon.</p>
-        <button type="button" class="btn btn-info">Coming Soon</button></a>
-      </div>
-    </div>
-  </div>
-</div>
-</header>
+    </footer>
 
-  <!-- Footer -->
-	<footer>
-		<div class="footer-copyright">© 2020 Copyright:
-			<a href="index.html"> Wildindigos.com</a>
-		</div>
-
-		<div class="social-container">
-			<ul>
-				<li class="social-icons">
-					<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-				</li>
-				<li class="social-icons">
-					<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
-				</li>
-				<li class="social-icons">
-					<a href="https://www.instagram.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-				</li>
-			</ul>
-		</div>
-	</footer>
-
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-	</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-	</script>
-	</body>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>

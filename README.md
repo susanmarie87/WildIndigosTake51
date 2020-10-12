@@ -4,7 +4,8 @@ Wild Indigos is a spiritual and holistic minded brand and community.
 We promote whole body health and wellness. Our mindful approach to healthy and connected living drives our community bond and we want this website to represent the abundance of that.
 
  ![Image](assets/wireframes/Screens.png)
- 
+  
+Live site hosted on Github pages [HERE](https://susanmarie87.github.io/WildIndigosTake51/index.html)
  # UX
 
 *	As a user I want to easily understand what it is I am looking at. 
@@ -81,17 +82,17 @@ We promote whole body health and wellness. Our mindful approach to healthy and c
 *    Each page on the website was tested for screen resposiveness to ensure breakpoints.
 
 *    The code was ran through each specific validator to make sure it passed.
+   
 
-*    
+ # Credits
 
- # Content
-
+*   The contact form was taken from WS3 schools: https://www.w3schools.com/
 
 *	The images were taken from: https://www.unsplash.com
 
 *   Navbar and Cards were taken from: http://www.bootstrap.com
 
-*   The responsive image was taken from: http://ami.responsivedesign.is/
+*   The responsive screen image was taken from: http://ami.responsivedesign.is/
  
 *   The images were resized with: https://tinypng.com/
 
@@ -99,10 +100,14 @@ We promote whole body health and wellness. Our mindful approach to healthy and c
 
 *   The icons were taken from: https://fontawesome.com/
 
+*   Opening Image taken from: https://zennedout.com/
+
+*
 
 
 
- # Credits
+
+ # Acknowledgements
 
 
 *	Code Institute

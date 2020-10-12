@@ -21,7 +21,7 @@ h2 {
   margin: 25px 0;
 }
 
-/* -- Navbar -- */
+/* -- Navbar (taken from www.bootstrap.com)-- */
 
 .navbar-brand {
   font-size: 40px;
@@ -39,7 +39,7 @@ h2 {
   margin-top: 60px;
 }
 
-/* -- Intro Cards -- */
+/* -- Intro Cards (from www.bootstrap.com)-- */
 .card-body {
     min-height:200px;
 }
@@ -48,7 +48,7 @@ h2 {
   object-fit: cover;
 }
 
-/* -- Classes -- */
+/* -- Classes (cards taken from www.bootstrap.com)-- */
 .card-img-overlay {
   position: absolute;
   top: 0;
@@ -60,7 +60,7 @@ h2 {
   border-radius: calc(0.25rem - 1px);
 }
 
-/* -- Product Cards -- */
+/* -- Product Cards (cards taken from www.bootstrap.com)-- */
 .header {
   padding: 86px;
 }
@@ -92,6 +92,7 @@ footer ul {
   margin: 0;
 }
 
+/* -- FOOTER ICONS taken from Font Awesome -- */
 .social-icons {
   list-style: none;
 }

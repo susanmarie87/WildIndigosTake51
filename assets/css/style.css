@@ -23,7 +23,7 @@ h2 {
   margin: 25px 0;
 }
 
-/* -- Navbar (taken from www.bootstrap.com)-- */
+/* -- Navbar (Adapted from www.bootstrap.com)-- */
 
 .navbar-brand {
   font-size: 40px;
@@ -54,7 +54,7 @@ h2 {
   object-fit: cover;
 }
 
-/* -- Classes (cards taken from www.bootstrap.com)-- */
+/* -- Classes (cards adapted from www.bootstrap.com)-- */
 .card-img-overlay {
   position: absolute;
   top: 0;
@@ -98,7 +98,7 @@ footer ul {
   margin: 0;
 }
 
-/* -- FOOTER ICONS taken from Font Awesome -- */
+/* -- FOOTER ICONS adapted from Font Awesome -- */
 .social-icons {
   list-style: none;
 }
@@ -117,7 +117,7 @@ footer ul {
   text-decoration: underline;
 }
 
-/* -- Contact Form taken from www.ws3schools.com -- */
+/* -- Contact Form adapted from www.ws3schools.com -- */
 form {
   box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.2);
   padding: 20px;

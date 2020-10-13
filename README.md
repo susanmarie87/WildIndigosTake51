@@ -1,21 +1,13 @@
 # *Wild Indigos*
 
 Wild Indigos is a spiritual and holistic minded brand and community.
-We promote whole body health and wellness. Our mindful approach to healthy and connected living drives our community bond and we want this website to represent the abundance of that.
+We promote whole body health and wellness. Our mindful approach to healthy and connected living drives our community bond and we want this website to represent the beauty of that.
 
  ![Image](assets/wireframes/Screens.png)
   
 Live site hosted on Github pages [HERE](https://susanmarie87.github.io/WildIndigosTake51/index.html)
+
  # UX
-
-*	As a user I want to easily understand what it is I am looking at. 
-
-*	As a user I want an obvious navigation link that lets me easily go to different pages in the site.
-
-*	As a user I want to be able to find what I am looking for easily. 
-
-*   As a user  I want to easily be able to view the website on any size screen.
-
 *   As a user, I want to browse merchandise.
 
      The merchandise section can be found by clicking “Products” on the navigation bar. Upon arrival to the products page, user can use scroll feature to find the specific card for bracelets. 
@@ -30,6 +22,14 @@ Live site hosted on Github pages [HERE](https://susanmarie87.github.io/WildIndig
 
     The user can click the “Classes” link on the navigation bar. Upon arrival at the Classes page. The user will be met with a “Sign Up!” button. 
     The user will then click the button and form will appear. 
+
+*	As a user I want an obvious navigation link that lets me easily go to different pages in the site.
+
+    The site is equipped with an easy to find navigation bar. The links are fully functioning. 
+
+*   As a user  I want to easily be able to view the website on any size screen.
+     
+       The site is designed to be mobile responsive.
 
 
 
@@ -57,9 +57,6 @@ Live site hosted on Github pages [HERE](https://susanmarie87.github.io/WildIndig
 
 *	A Shopping Cart feature needs to be added.
 
-*   The form buttons will need to actually send somewhere.
-
-
 # Technologies Used
 
 1.	HTML5
@@ -72,43 +69,74 @@ Live site hosted on Github pages [HERE](https://susanmarie87.github.io/WildIndig
 
 5.   Git
 
-7.   W3C validation
-
-
+6.   W3C validation
 
  # Testing
-
 
 *    Each page on the website was tested for screen resposiveness to ensure breakpoints.
 
 *    The code was ran through each specific validator to make sure it passed.
    
+*    Tested all fields on Contact Form to ensure error would appear if text was missing.
+
+*    Tested links on Landing Page to ensure they went to desired areas.
+
+*    Tested all links on Navbar to ensure they worked.
+
+*    Tested Wild Indigos links on Footer to ensure that link worked properly.
+
+*    Tested all social media links
+
+*    Ran HTML code through WS3 Markdown validator. Minor warnings appeared regarding button element not permitted in the "a" element. Resolved this by replacing button element with div element
+
+*    Removed unnecessary code that was flagged in HTML validator.
+
+*    Ran CSS through WS3 validator- PASSED. 
+
+
+# Deployment
+
+* Wild Indigos has been deployed on GitHub Pages with the following process:
+
+* All code was written on Gitpod, a cloud-based IDE.
+
+* The code was then pushed to GitHub where it is stored in my Repository.
+
+* Under the Settings section of the GitHub repository, scroll down to GitHub Pages section.
+
+* Under 'Source' drop-down, the 'Master branch' was selected.
+
+* Once selected, this publishes the project to GitHub Pages and displays the site URL.
+
+* There is no difference between the deployed version and the development version.
+
+* The code can be run locally through clone or download. You can do this by opening the repository,
+  clicking on the green 'Code' button and selecting either 'clone or download'.
+
+* The Clone option provides a URL, which you can use on your desktop IDE.
+
+* The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine or uploaded to your cloud-based IDE workspace.
 
  # Credits
 
-*   The contact form was taken from WS3 schools: https://www.w3schools.com/
+*   The contact form was adapted from WS3 schools: https://www.w3schools.com/
 
-*	The images were taken from: https://www.unsplash.com
+*	The images were adapted from: https://www.unsplash.com
 
-*   Navbar and Cards were taken from: http://www.bootstrap.com
+*   Navbar and Cards were adapted from: http://www.bootstrap.com
 
 *   The responsive screen image was taken from: http://ami.responsivedesign.is/
  
 *   The images were resized with: https://tinypng.com/
 
-*   The font was taken from: https://googlefonts.com/
+*   The font was adapted from: https://googlefonts.com/
 
-*   The icons were taken from: https://fontawesome.com/
+*   The icons were adapted from: https://fontawesome.com/
 
-*   Opening Image taken from: https://zennedout.com/
-
-*
-
-
+*   Opening Image adapted from: https://zennedout.com/
 
 
  # Acknowledgements
-
 
 *	Code Institute
 
@@ -120,13 +148,12 @@ Live site hosted on Github pages [HERE](https://susanmarie87.github.io/WildIndig
 
 *	Ignatius Ukwuoma, my mentor, for helping to guide me through ideas for my project and giving me motivation.
 
-*	Jim Lynx for helping me sort out a bracket and CSS issues as well as the valuable feedback and advice when I was ready to quit. Jim should be hired immediately at
-    Code Institute as a mentor upon completion... or now for MS1 projects. 
+*	Jim Lynx for helping me sort out a bracket and CSS issues as well as the valuable feedback and advice when I was ready to quit. Jim is a coding natural and should be hired immediately at
+    Code Institute as a mentor upon completion. Or now for MS1 projects. 
 
 *	Kevin Powell and his very awesome and concise videos. 
 
 *	Learn Code Institute for their videos as well.
 
 
-(In addition, if it is not obvious, you should also describe how to run your code locally.)
 

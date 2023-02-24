@@ -32,6 +32,7 @@ h2 {
   float: left;
   padding-bottom: 5px;
 }
+
 .navbar-nav li {
   padding-right: 10px;
 }
@@ -49,6 +50,7 @@ h2 {
 .card-body {
   min-height: 200px;
 }
+
 .card img {
   height: 300px;
   object-fit: cover;
@@ -112,6 +114,7 @@ footer ul {
   color: #fff;
   text-decoration: underline;
 }
+
 .social-icons a:hover {
   color: gray;
   text-decoration: underline;
